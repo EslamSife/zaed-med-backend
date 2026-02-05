@@ -1,0 +1,33 @@
+### IDE ###
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+
+### Build ###
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### OS ###
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+### Logs ###
+*.log
+logs/
+
+### Environment ###
+.env
+.env.local
+*.local
+
+### Maven Wrapper (keep wrapper properties, ignore jar) ###
+.mvn/wrapper/maven-wrapper.jar
